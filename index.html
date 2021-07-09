@@ -11,28 +11,45 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
-<body>
+<body> 
     <!--CONTAINER-->
-   
     <div class="container-fluid">
-        <div class="row">
-            <!--PROFILE PIC-->
-            <img src="img/placeholdersquare.png" alt="photo de profil" class="col-lg-4 col-md-4 col-sm-12 img-responsive border rounded-circle ">
+
+        <!--NAV BAR & MENU BURGER-->
+        <div class="row border">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand" href="#">Home</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             
-            <!--INTRO-->
-            <p class="col-lg-8 col-md-8 col-sm-12 text-center m-auto">Hello<em class="emphasized">,</em> my name is <br>
+            <!--LISTE POUR ONGLETS-->
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Say Hello!</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+        
+    <div class="row p-3">
+        <!--PROFILE PIC-->
+        <img src="img/placeholdersquare.png" alt="photo de profil" class="col-lg-4 col-md-4 col-sm-12 img-fluid border rounded-circle">
+        <!--INTRO-->
+        <p class="col-lg-8 col-md-8 col-sm-12 text-center m-auto">Hello<em class="emphasized">,</em> my name is <br>
             <em class="emphasized">Noémie Hourdeau</em> 
             <br>
             Here's <em class="emphasized">who I am</em> and <em class="emphasized">what I do.</em>
             <br>
-
-            <!--BUTTONS-->
-            <button class="btn btn-block button-default">Resume</button>
-            <button class="btn btn-block button-default">Projects</button>
-            <button class="btn btn-block button-default">About Me</button>
-            <button class="btn btn-block button-default">Contact</button>
-            </p>
-        </div>
+        <!--BUTTONS-->
+            <button class="btn btn-block border">Resume</button>
+            <button class="btn btn-block border">Projects</button>
+            <button class="btn btn-block border">About Me</button>
+            <button class="btn btn-block border">Contact</button>
+        </p>
+    </div>
 
     </div>
 
