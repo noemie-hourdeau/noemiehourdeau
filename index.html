@@ -24,34 +24,41 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             
             <!--LISTE POUR ONGLETS-->
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Say Hello!</a></li>
                 </ul>
             </nav>
         </div>
     </div>
         
-    <div class="row p-3">
-        <!--PROFILE PIC-->
-        <img src="img/placeholdersquare.png" alt="photo de profil" class="col-lg-4 col-md-4 col-sm-12 img-fluid border rounded-circle">
-        <!--INTRO-->
-        <p class="col-lg-8 col-md-8 col-sm-12 text-center m-auto">Hello<em class="emphasized">,</em> my name is <br>
-            <em class="emphasized">Noémie Hourdeau</em> 
-            <br>
-            Here's <em class="emphasized">who I am</em> and <em class="emphasized">what I do.</em>
-            <br>
-        <!--BUTTONS-->
-            <button class="btn btn-block border">Resume</button>
-            <button class="btn btn-block border">Projects</button>
-            <button class="btn btn-block border">About Me</button>
-            <button class="btn btn-block border">Contact</button>
-        </p>
+        <div class="row p-3 my-5">
+            <!--PROFILE PIC-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 text-center">
+            <img src="img/placeholdersquare.png" alt="photo de profil" class="img-thumbnail rounded-circle mb-5">
+            </div>
+            <!--INTRO-->
+            <div class="row col-xl-8 col-lg-8 col-md-12 col-sm-12 text-center m-auto">
+                <p class="mb-0 intro">Hello<em class="emphasized">,</em> my name is</p>
+                <p class="mb-0 intro"><em class="emphasized">Noémie Hourdeau.</em></p>
+                <p class="mb-0 intro">Here's <em class="emphasized">who I am</em> and <em class="emphasized">what I do.</em></p>
+        
+            <!--BUTTONS-->
+            <div class="row p-3">
+                <span>
+                <button class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 btn btn-sm-block border m-3">Resume</button>
+                <button class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 btn btn-sm-block border m-3">Projects</button>
+                <button class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 btn btn-sm-block border m-3">About</button>
+                <button class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 btn btn-sm-block border m-3">Contact</button>
+                </span>
+            </div>
+        </div>
     </div>
 
     </div>
+
 
     
 <!--Script CDN Bootstrap-->

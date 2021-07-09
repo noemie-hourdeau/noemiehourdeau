@@ -1,7 +1,13 @@
+/* COMMUN */
 .emphasized {
     font-style: normal;
     font-size: 110%;
     font-weight: bold;
     color: #1E6091;
     
+}
+
+/*LANDING PAGE*/
+.intro {
+    font-size: 200%;
 }
