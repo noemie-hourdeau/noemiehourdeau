@@ -6,6 +6,15 @@
     color: #1E6091;
 }
 
+.nav-item, .nav-link {
+    color: #1E6091;
+}
+
+.nav-link:hover {
+    background-color: #1E6091;
+    color: yellow;
+}
+
 /*LANDING PAGE*/
 
 .profilePic {
