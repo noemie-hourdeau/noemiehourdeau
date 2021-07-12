@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noémie Hourdeau</title>
-    <!--FICHIER CSS-->
-    <link rel="stylesheet" href="style.css">
     <!--CDN Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <!--FICHIER CSS-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body> 
     <!--CONTAINER-->
@@ -20,7 +19,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"> 
                 <span class="navbar-toggler-icon"></span></button>
-                <a class="navbar-brand" href="#">Home</a>
+                <a class="navbar-brand" href="#"><i class="fas fa-home"></i> Home</a>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             
             <!--LISTE POUR ONGLETS-->
@@ -28,19 +27,21 @@
                     <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Say Hello!</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="far fa-envelope"></i> Say Hello!</a></li>
                 </ul>
+                </div>
             </nav>
         </div>
     </div>
         
-        <div class="row p-3 my-5">
+    <div class="container-fluid d-flex justify-content-center align-items-center vertical-center">
+        <div class="row">
             <!--PROFILE PIC-->
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 text-center">
-            <img src="img/placeholdersquare.png" alt="photo de profil" class="img-thumbnail rounded-circle mb-5">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 text-center px-5">
+            <img src="img/placeholdersquare.png" alt="photo de profil" class="img-thumbnail rounded-circle profilePic">
             </div>
             <!--INTRO-->
-            <div class="row col-xl-8 col-lg-8 col-md-12 col-sm-12 text-center m-auto">
+            <div class="flex-row col-xl-8 col-lg-8 col-md-12 col-sm-12 text-center px-5">
                 <p class="mb-0 intro">Hello<em class="emphasized">,</em> my name is</p>
                 <p class="mb-0 intro"><em class="emphasized">Noémie Hourdeau.</em></p>
                 <p class="mb-0 intro">Here's <em class="emphasized">who I am</em> and <em class="emphasized">what I do.</em></p>
@@ -48,19 +49,19 @@
             <!--BUTTONS-->
             <div class="row p-3">
                 <span>
-                <button class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 btn btn-sm-block border m-3">Resume</button>
-                <button class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 btn btn-sm-block border m-3">Projects</button>
-                <button class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 btn btn-sm-block border m-3">About</button>
-                <button class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 btn btn-sm-block border m-3">Contact</button>
+                <button class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 btn btn-sm-block btn-outline-primary border m-3"><i class="far fa-file"></i> Resume</button>
+                <button class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 btn btn-sm-block btn-outline-primary border m-3"><i class="fas fa-tasks"></i> Projects</button>
+                <button class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 btn btn-sm-block btn-outline-primary border m-3"><i class="far fa-address-card"></i> About</button>
+                <button class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 btn btn-sm-block btn-outline-primary border m-3"><i class="far fa-envelope"></i> Contact</button>
                 </span>
             </div>
         </div>
+        </div>
     </div>
 
-    </div>
 
-
-    
+<!--Script FONT AWESOME-->
+<script src="https://kit.fontawesome.com/0314d37451.js" crossorigin="anonymous"></script>
 <!--Script CDN Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
 </body>
