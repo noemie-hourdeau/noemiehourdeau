@@ -6,13 +6,9 @@
     color: #1E6091;
 }
 
-.nav-item, .nav-link {
-    color: #1E6091;
-}
-
-.nav-link:hover {
-    background-color: #1E6091;
-    color: yellow;
+/*NAVBAR*/
+.navbar-brand:hover, .nav-link:hover {
+    font-weight: bold;
 }
 
 /*LANDING PAGE*/
@@ -37,3 +33,12 @@
     min-height: 100%;  
     min-height: 100vh;
   }
+
+/* DIPLOMAS */
+.graduationcap {
+    width: 33%;
+}
+
+.graduation {
+    width: 50%;
+}
