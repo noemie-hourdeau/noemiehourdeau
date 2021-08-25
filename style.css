@@ -9,6 +9,12 @@
 /*NAVBAR*/
 .navbar-brand:hover, .nav-link:hover {
     font-weight: bold;
+    color: #1E6091!important;
+}
+
+.navbar {
+    width: 100%;
+    color: #1E6091!important;
 }
 
 /*LANDING PAGE*/
@@ -42,4 +48,5 @@
 .graduation {
     width: 50%;
 }
+
 
