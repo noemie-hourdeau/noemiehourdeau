@@ -30,6 +30,7 @@ h2 {
 .navbar {
     width: 100%;
     color: #1E6091!important;
+    background-color: #f8f9fa;
 }
 
 /*LANDING PAGE*/
@@ -55,6 +56,8 @@ h2 {
     min-height: 100vh;
   }
 
+/* RESUME */
+
 /* DIPLOMAS */
 .graduationcap {
     width: 33%;
@@ -62,6 +65,10 @@ h2 {
 
 .graduation {
     width: 50%;
+}
+
+.rowdiplomes {
+    width: 100%;
 }
 
 
