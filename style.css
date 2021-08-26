@@ -2,6 +2,9 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
+body {
+}
 .emphasized {
     font-style: normal;
     font-size: 110%;
