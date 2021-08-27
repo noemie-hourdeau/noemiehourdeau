@@ -1,4 +1,10 @@
 /* COMMUN */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+}
 .emphasized {
     font-style: normal;
     font-size: 110%;
@@ -6,9 +12,25 @@
     color: #1E6091;
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 200%;
+}
+
 /*NAVBAR*/
 .navbar-brand:hover, .nav-link:hover {
     font-weight: bold;
+    color: #1E6091!important;
+}
+
+.navbar-brand, .nav-item, .nav-link {
+    color: #1E6091!important;
+}
+
+.navbar {
+    width: 100%;
+    color: #1E6091!important;
+    background-color: #f8f9fa;
 }
 
 /*LANDING PAGE*/
@@ -34,6 +56,8 @@
     min-height: 100vh;
   }
 
+/* RESUME */
+
 /* DIPLOMAS */
 .graduationcap {
     width: 33%;
@@ -42,4 +66,9 @@
 .graduation {
     width: 50%;
 }
+
+.rowdiplomes {
+    width: 100%;
+}
+
 
